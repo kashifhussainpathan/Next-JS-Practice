@@ -18,7 +18,7 @@ export default function Home() {
         </div>
         <div className="mt-10">
           <Link
-            href="/parallel-routes/photos"
+            href="/parallel-routes"
             className="font-semibold italic text-sky-600 underline"
           >
             Parallel Routes

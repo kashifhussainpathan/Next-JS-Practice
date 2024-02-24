@@ -1,6 +1,6 @@
 import Header from "@/components/header";
 
-export default function RootLayout({
+export default function ParallelLayout({
   children,
   team,
   dashboard,
@@ -10,16 +10,16 @@ export default function RootLayout({
   dashboard: React.ReactNode;
 }) {
   return (
-    <>
+    <section className="w-[60%] mx-auto">
       <Header />
       <main className="container">
-        <section className="py-6">{children}</section>
+        <section className="py-4">{children}</section>
 
         <section className="flex gap-6">
-          {team}
           {dashboard}
+          {team}
         </section>
       </main>
-    </>
+    </section>
   );
 }

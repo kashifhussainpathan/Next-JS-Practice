@@ -10,7 +10,7 @@ export default function Header() {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/settings">Settings</Link>
+              <Link href="/parallel-routes/settings">Settings</Link>
             </li>
           </ul>
         </nav>
